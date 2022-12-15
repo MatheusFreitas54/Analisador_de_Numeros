@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(45deg, #E14D2A, #FD841F, #3E6D9C, #001253);
+    background-size: 100% 400%;
+    font: normal 15pt arial ;
+    color: white;
+    animation: cores 10s ease infinite;
+}
+
+@keyframes cores {
+    0% { background-position: 0% 50% };
+    50% { background-position: 100% 50% };
+    100% { background-position: 0% 50% };
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    color: black;
+    background: white;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
+    border: 1px solid black;
+
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
+
+div#res {
+    padding: 2px;
+}
+/*
+.center {
+    text-align: center;
+}
+*/
+select {
+    width: 200px;
+}
